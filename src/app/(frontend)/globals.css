@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-ink: #0f2a43;
+  --color-ink-soft: #4c6c86;
+  --color-line: #d7e6f0;
+  --color-celeste: #1470a6;
+  --color-celeste-strong: #0f5c89;
+  --color-celeste-soft: #e4f2fb;
+  --color-celeste-deep: #0b4c7c;
+  --color-celeste-deep-2: #0a3b63;
+  --color-warn: #b3402d;
+  --color-warn-soft: #fbe7e2;
+
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+body {
+  background: #fbfdff;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+.foto-institucional {
+  background:
+    radial-gradient(circle at 70% 25%, rgba(255, 255, 255, 0.45), transparent 45%),
+    linear-gradient(150deg, #cde6f4 0%, #3f8fbe 100%);
+}
